@@ -1,0 +1,33 @@
+VAR
+	Trajectory : FB_Trajectory := (0);
+	Move_axis : FB_move := (0);
+	Power_home : FB_power := (0);
+	AxisX : ACP10AXIS_typ := (0);
+	AxisX_EncIf : SdcEncIf16_typ := (0);
+	AxisX_DrvIf : SdcDrvIf16_typ := (0);
+	AxisX_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisX_HW : SdcHwCfg_typ := (0);
+	AxisY : ACP10AXIS_typ := (0);
+	AxisY_EncIf : SdcEncIf16_typ := (0);
+	AxisY_DrvIf : SdcDrvIf16_typ := (0);
+	AxisY_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisY_HW : SdcHwCfg_typ := (0);
+	AxisZ : ACP10AXIS_typ := (0);
+	AxisZ_EncIf : SdcEncIf16_typ := (0);
+	AxisZ_DrvIf : SdcDrvIf16_typ := (0);
+	AxisZ_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisZ_HW : SdcHwCfg_typ := (0);
+	gAxis01 : ACP10AXIS_typ := (0);
+	gAxis02 : ACP10AXIS_typ := (0);
+	gAxisTest : ACP10AXIS_typ := (0);
+	gAxisTest_HW : SdcHwCfg_typ := (0);
+	gAxisTest_DrvIf : SdcDrvIf16_typ := (0);
+	gAxisTest_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxisTest_ModuleOk : BOOL := 0;
+	gAxis03 : ACP10AXIS_typ := (0);
+	gAxis03_HW : SdcHwCfg_typ := (0);
+	gAxis03_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis03_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis03_ModuleOk : BOOL := 0;
+	CNCsys : ARNC0CNC_typ;
+END_VAR

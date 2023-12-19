@@ -1,0 +1,5 @@
+VAR
+	length : UINT := 0;
+	homing : MC_Home := (0);
+	power : MC_Power := (0);
+END_VAR
